@@ -275,4 +275,21 @@ under the License.
   <activeProfiles>
     <activeProfile>runelite</activeProfile>
   </activeProfiles>
+<!--   <pluginGroups>-->
+<!--        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>-->
+<!--    </pluginGroups>-->
+<!--    <profiles>-->
+<!--        <profile>-->
+<!--            <id>sonar</id>-->
+<!--            <activation>-->
+<!--                <activeByDefault>true</activeByDefault>-->
+<!--            </activation>-->
+<!--            <properties>-->
+<!--                &lt;!&ndash; Optional URL to server. Default value is http://localhost:9000 &ndash;&gt;-->
+<!--                <sonar.host.url>-->
+<!--                  http://myserver:9000-->
+<!--                </sonar.host.url>-->
+<!--            </properties>-->
+<!--        </profile>-->
+<!--     </profiles>-->
 </settings>
