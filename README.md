@@ -1,4 +1,4 @@
-This project is copied from the original creators to learn more about testing (CD/CI - sonarcube - unit testing)
+This project is copied from the original creators to learn more about testing (CI/CD - mocking - sonarcube - unit testing)
 
 ![](https://runelite.net/img/logo.png)
 
