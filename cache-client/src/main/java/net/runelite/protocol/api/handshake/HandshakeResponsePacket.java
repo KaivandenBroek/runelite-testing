@@ -28,7 +28,10 @@ import lombok.Data;
 import net.runelite.protocol.api.login.HandshakeResponseType;
 
 @Data
-public class HandshakeResponsePacket
-{
+public class HandshakeResponsePacket {
 	private HandshakeResponseType response;
+
+	public HandshakeResponseType getResponse() {
+		return response;
+	}
 }

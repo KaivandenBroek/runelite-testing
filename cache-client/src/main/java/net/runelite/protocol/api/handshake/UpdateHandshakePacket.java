@@ -33,7 +33,14 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class UpdateHandshakePacket extends HandshakePacket
-{
+public class UpdateHandshakePacket extends HandshakePacket {
 	private int revision;
+
+	public void setRevision(int clientRevision) {
+		revision = clientRevision;
+	}
+
+	public Object getRevision() {
+		return revision;
+	}
 }

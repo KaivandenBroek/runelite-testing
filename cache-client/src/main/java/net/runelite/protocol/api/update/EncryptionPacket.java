@@ -27,7 +27,10 @@ package net.runelite.protocol.api.update;
 import lombok.Data;
 
 @Data
-public class EncryptionPacket
-{
+public class EncryptionPacket {
 	private byte key;
+
+	public void setKey(byte b) {
+		key = b;
+	}
 }

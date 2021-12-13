@@ -28,8 +28,7 @@ import java.util.Map;
 import lombok.Data;
 
 @Data
-public class ScriptDefinition
-{
+public class ScriptDefinition {
 	private int id;
 	private int[] instructions;
 	private int[] intOperands;
@@ -39,4 +38,8 @@ public class ScriptDefinition
 	private int localIntCount;
 	private int localStringCount;
 	private Map<Integer, Integer>[] switches;
+
+	public int getId() {
+		return id;
+	}
 }
