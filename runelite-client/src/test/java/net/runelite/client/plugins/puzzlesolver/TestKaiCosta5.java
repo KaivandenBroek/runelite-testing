@@ -29,6 +29,7 @@ public class TestKaiCosta5 {
 
             assertTrue(solver.hasSolution());
             assertFalse(solver.hasFailed());
+            assertTrue(solver.getStep(solver.getStepCount() - 1).hasPieces(FINISHED_PUZZLE));
         }
     }
 

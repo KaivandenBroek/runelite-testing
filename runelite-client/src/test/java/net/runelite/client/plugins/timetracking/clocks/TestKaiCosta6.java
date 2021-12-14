@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class TestKaiCosta6 {
 
     @Test
-    public void properColonSeparatedTimeStringShouldReturnCorrectSeconds()
+    public void testStringToSeconds()
     {
         assertEquals(6, ClockPanel.stringToSeconds("6"));
         assertEquals(50, ClockPanel.stringToSeconds("50"));
