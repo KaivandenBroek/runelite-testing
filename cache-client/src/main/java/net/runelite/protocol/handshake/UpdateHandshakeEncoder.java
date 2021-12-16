@@ -36,7 +36,7 @@ public class UpdateHandshakeEncoder extends MessageToByteEncoder<UpdateHandshake
 	protected void encode(ChannelHandlerContext ctx, UpdateHandshakePacket packet, ByteBuf buf) throws Exception
 	{
 		buf.writeByte(HandshakeType.UPDATE.getValue());
-		buf.writeInt(packet.getRevision());
+		buf.writeInt((Integer) packet.getRevision());
 	}
 
 }
