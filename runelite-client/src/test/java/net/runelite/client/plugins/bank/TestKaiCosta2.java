@@ -81,11 +81,11 @@ public class TestKaiCosta2
 
         ItemComposition comp = mock(ItemComposition.class);
 
-        // 60k HA price * 30 = 1.8m
+        // Create a fixed high alch price
         when(comp.getHaPrice())
                 .thenReturn(60_000);
 
-        // 400k GE Price * 30 = 12m
+        // Create a fixed item price
         when(itemManager.getItemPrice(itemId))
                 .thenReturn(400_000);
         when(itemManager.getItemComposition(itemId))
